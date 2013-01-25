@@ -1,8 +1,5 @@
-\beamer@endinputifotherversion {3.12pt}
-\beamer@sectionintoc {1}{Contents}{2}{0}{1}
-\beamer@sectionintoc {2}{Education}{3}{0}{2}
-\beamer@sectionintoc {3}{Research}{4}{0}{3}
-\beamer@subsectionintoc {3}{1}{LHC Injection Kicker Magnets}{5}{0}{3}
-\beamer@subsectionintoc {3}{2}{Coaxial Wire Measurements}{7}{0}{3}
-\beamer@subsectionintoc {3}{3}{Collimator RF System}{8}{0}{3}
-\beamer@subsectionintoc {3}{4}{Nanotechnology}{9}{0}{3}
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Education}{3}{0}{1}
+\beamer@sectionintoc {2}{Research}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Doctoral Studies}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Nanotechnology}{9}{0}{2}
