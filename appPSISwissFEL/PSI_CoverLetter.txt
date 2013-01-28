@@ -1,0 +1,14 @@
+Dear Sir/Madam,
+
+I am applying for the position of Physicist working on the topic of longitudinal diagnostics for SwissFEL, located at PSI, Switzerland. I am currently completing a PhD at Manchester University on placement at CERN in the area of accelerator physics. The thesis is entitled "Measurements and Simulations of Impedance Reduction Techniques in Particle Accelerators", expected to be defended in Early 2013.
+
+My doctoral project has involved the use of theoretical, simulation and bench top measurement analysis of the strength of interactions between the charged particle beam of the Large Hadron Collider (LHC) and several critical pieces of near beam equipment, focusing on the fast transmission line kicker magnets used to inject the beam into the accelerator. This was done under the auspices of understanding the source of strong heating within the LHC during colliding beams, and proposing solutions to any predicted or observed heating on an equipment by equipment basis.
+
+Working in collaboration with a multi-national and multi-lingual team, we were tasked with analysing the strong heating that was observed in these magnets during the increase of stored beam current in the LHC. It was noted that this was due to strong EM interactions between the beam and the kicker magnets. I was responsible for investigating the mechanisms behind the strong EM interactions and proposing ways to reduce this interaction to minimise the power loss into the magnet, whilst working with colleagues working on improving heat transfer from the magnet and reducing induced voltage during magnet firing to understand the restrictions on the design that their objectives placed.
+
+Results were frequently presented to those within and external to the project team, with feedback discussed and implemented as it was found suitable to do so. A final design was chosen for use in 8 new magnets to be constructed in 2013 for installation at the end of 2013/early 2014.
+
+I believe my experience permits me to positively contribute to tackling the challenges involved in designing cutting edge diagnostics for SwissFEL. I have a considerable background in accelerator physics and a strong interest in working towards the area of beam diagnostics, especially for light sources using short electron bunches. As such I enclose my CV for consideration. I look forwards to hearing from concerning this position.
+
+Thank you for your time,
+Hugo Day
