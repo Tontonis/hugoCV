@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Hugo Day</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <style>* {
+  box-sizing: border-box;
+}
+
+main {
+  display: block;
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
+  font-size: 15px;
+  color: #333;
+  line-height: 1.42857143;
+  background-color: #F0F0F0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typical page borders are awkward when rendered to PDF. */
+body {
+  background-color: #FFFFFF;
+}
+
+/* Adobe or wkhtmltopdf has issues with the <main> tag, so we use <div> for
+the PDF case, <main> for the HTML case, and style both via an ID. */
+#main {
+  background-color: #FFF;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #E6E6E6;
+}
+
+body > #main {
+  border: none;
+}
+
+#container > header {
+  padding-top: 6em;
+  padding-bottom: 1em;
+}
+
+body.pdf #container > header {
+  padding: 0;
+}
+
+#main > #container > section {
+  margin-left: 5em;
+  position: relative;
+  display: block;
+}
+
+span.fa
+{
+  position: absolute;
+  top: 4px;
+  left: -50px;
+  font-size: 30px;
+  color: #BFC1C3;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #EEE;
+}
+
+.tenure, .keywords {
+  font-size: 75%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #BFC1C3;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+h3 {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+a, a:visited {
+  color: #428BCA;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.defunct {
+  color: #989898;
+  font-weight: bold;
+}
+
+#summary > p > strong {
+  font-size: 1.25em;
+}
+
+
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+.card-skills {
+    position: relative;
+}
+.card-nested {
+    min-height: 0;
+    margin-bottom: 10px;
+    border-width: 1px 0 0 0;
+}
+.card {
+    background: #FFF;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+}
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 10px;
+}
+@media (max-width: 480px) {
+  .skill-info {
+    margin-left: 20px;
+  }
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.card-skills {
+  position: relative;
+}
+
+.space-top {
+    margin-top: 10px;
+}
+
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#elevator-pitch {
+  text-align: center;
+  font-size: 24px;
+  color: #BFC1C3;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.res-label {
+  font-style: italic;
+}
+</style>
+
+
+  </head>
+
+
+  <body>
+    <main id="main"> 
+      <div id="container">
+      <header>
+
+
+        <h1>Hugo Day</h1>
+
+        <div id="contact">
+          
+          
+          
+        </div>
+      </header>
+
+
+
+
+<hr>
+<section id="summary">
+    <header>
+      <span class="fa fa-lg fa-info"></span>  <h2>info</h2>
+    </header>
+    Applied Physicist with extensive experience working in challenging, international academic environments.  Committed to continued professional development and outreach/education in STEM subjects.
+</section>
+
+
+
+
+<hr>
+<section id="skills">
+  <header>
+  <h2>Skills</h2>
+  </header>
+  <span class="fa fa-lg fa-code"></span>
+  <ul class="list-unstyled">
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+          <div class="skill-progress advanced"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Scientific Computing</strong>
+          <div class="space-top labels">
+                <span class="label label-keyword">SciPy</span>
+                <span class="label label-keyword">MatPlotLib</span>
+                <span class="label label-keyword">C</span>
+                <span class="label label-keyword">MATLAB</span>
+                <span class="label label-keyword">Git</span>
+                <span class="label label-keyword">Data Analysis</span>
+                <span class="label label-keyword">DSP</span>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+          <div class="skill-progress advanced"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Electromagnetic Simulations</strong>
+          <div class="space-top labels">
+                <span class="label label-keyword">CST: Microwave Studio</span>
+                <span class="label label-keyword">HFSS</span>
+                <span class="label label-keyword">Maxwell</span>
+                <span class="label label-keyword">pSpice</span>
+                <span class="label label-keyword">Cadence</span>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
+          <div class="skill-progress intermediate"></div>
+        </div>
+        <div class="skill-info">
+          <strong>RF Engineering</strong>
+          <div class="space-top labels">
+                <span class="label label-keyword">Network Analysers</span>
+                <span class="label label-keyword">Bench-top measurements</span>
+                <span class="label label-keyword">Spectrum Analysers</span>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+          <div class="skill-progress advanced"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Laboratory Work</strong>
+          <div class="space-top labels">
+                <span class="label label-keyword">clean room</span>
+                <span class="label label-keyword">high voltage</span>
+                <span class="label label-keyword">COSHH</span>
+                <span class="label label-keyword">chemistry</span>
+                <span class="label label-keyword">radiation controlled</span>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
+          <div class="skill-progress intermediate"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Project Managament</strong>
+          <div class="space-top labels">
+                <span class="label label-keyword">Multi-disciplinary</span>
+                <span class="label label-keyword">Multi-lingual</span>
+                <span class="label label-keyword">Results-oriented</span>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
+          <div class="skill-progress intermediate"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Software Development</strong>
+          <div class="space-top labels">
+                <span class="label label-keyword">C</span>
+                <span class="label label-keyword">C++</span>
+                <span class="label label-keyword">Python</span>
+                <span class="label label-keyword">Version Control</span>
+                <span class="label label-keyword">Databases</span>
+                <span class="label label-keyword">LaTeX</span>
+          </div>
+        </div>
+      </li>
+  </ul>
+</section>
+
+
+
+
+
+
+
+
+
+
+<hr>
+<section id="employment">
+    <header>
+      <span class="fa fa-lg fa-building"></span>  <h2>employment</h2>
+    </header>
+
+<div>
+  <h3><em>Senior Research Fellow</em>,
+    <a href="https://cern.ch">CERN (European Centre for Particle Physics)</a>
+    </h3>
+    <span class="tenure">2013-07 — 2016-06</span>
+    | <span class="keywords">Physics RF Engineering Electromagnetics Simulations Computational Physics Numerical Methods Electrical Engineering High Voltage Scientific Computing Particles Accelerators </span>
+  <p><p>Worked in the fast pulsed systems group of the technology department on various topics related to the LHC injection kicker magnets, focused on electromagnetic interactions between the particle beam and the electromagnet.</p>
+</p>
+  <ul>
+    <li>Proposed upgrade to EM performance of magnet which was subsequently applied to all kicker magnets during 2013 maintenance shutdown.</li>
+    <li>Lead study of HV behaviour of cathode triple junction as applied to LHC kicker magnet geometry.</li>
+  </ul>
+</div>
+<div>
+  <h3><em>Doctoral Student</em>,
+    <a href="https://cern.ch">CERN (European Centre for Particle Physics)</a>
+    </h3>
+    <span class="tenure">2010-02 — 2013-01</span>
+    | <span class="keywords">Physics RF Engineering Electromagnetics Simulations Computational Physics Numerical Methods Electrical Engineering High Voltage Scientific Computing Particles Accelerators </span>
+  <p><p>Examining the electromagnetic interactions between charged particle beams and particle accelerator components using simulation suites and bench-top measurements techniques. Focused on normal-conducting fast pulsed electromagnets and collimators (robust beam protection equipment) necessitating dealing with competing design requirements to find optimal solutions.</p>
+</p>
+  <ul>
+    <li>Lead simulation and measurement campaign of beam coupling impedance of the LHC injection magnets</li>
+    <li>Devised an analysis technique to measure beam impedance in asymmetric structures</li>
+    <li>Systematic study of impedance reduction techniques, their advantages/disadvantages and implementation</li>
+  </ul>
+</div>
+</section>
+
+
+
+
+
+
+
+<hr>
+<section id="projects">
+    <header>
+      <span class="fa fa-lg fa-star"></span>  <h2>projects</h2>
+    </header>
+<div>
+<h3><em>Contributor</em>,
+<a href="http://cosmicpi.org">CosmicPi</a>
+</h3>
+<span class="tenure">2014-10 — Present</span>
+| <span class="keywords">open science open source </span>
+<p>Building an open source, distributed cosmic-ray detector</p>
+
+</div>
+</section>
+
+
+
+
+
+
+<hr>
+<section id="education">
+    <header>
+      <span class="fa fa-lg fa-mortar-board"></span>  <h2>education</h2>
+    </header>
+<div>
+<h3><em>PhD in Particle Phyiscs</em>,
+<a href="https://www.hep.manchester.ac.uk/">University of Manchester</a>
+</h3>
+<span class="tenure">2009-09 — 2013-06</span>
+<p>Thesis entitled, &quot;Beam Coupling Impedance Reduction Techniques in Particle Accelerators&quot; done on placement at CERN.</p>
+
+</div>
+<div>
+<h3><em>MPhys Physics</em>,
+<a href="https://www.phys.soton.ac.uk/">University of Southampton</a>
+</h3>
+<span class="tenure">2005-09 — 2009-06</span>
+| <span class="keywords">Electromagnetics Classical Physics Statistical Mechanics Numerical Modelling Experimental Methods Fluid Mechanics General Relativity/Gravitational Waves </span>
+<p>Undergraduate masters in physics, with many optional courses in mathematics, general relativity and fluid dynamics. Masters Thesis: &quot;Controlling the Synthesis of Branched Gold Nanoparticles using a Wet Chemical Synthesis Method&quot; resulting in a journal publication.</p>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+<section id="service">
+    <header>
+      <span class="fa fa-lg fa-child"></span>  <h2>service</h2>
+    </header>
+    <div>
+    <h3><em>Fundraising, Event Organisation, Team Mentor</em>,
+      <a href="http://theport.ch/">THE Port</a>
+    </h3>
+    <span class="tenure">2014-06 — Present</span>
+    <p><p>Organisation for THE Port humanitarian hackathon. Assisting in fundraising and sponsorship for event. In addition provide volunteer coordination during event and team mentoring to participating teams during the warm up phase of the event.</p>
+</p>
+    </div>
+    <div>
+    <h3><em>Tour Guide</em>,
+      <a href="http://cern.ch">CERN</a>
+    </h3>
+    <span class="tenure">2010-10 — 2016-06</span>
+    <p><p>Tour guide to general public. Giving introductory talks concerning CERN&#39;s mission and research to the general public ranging from secondary school students to holidaymakers to visiting dignitaries. </p>
+</p>
+    </div>
+    <div>
+    <h3><em>Geneva Coordinator</em>,
+      <a href="http://www.pintofscience.ch">Pint of Science CH</a>
+    </h3>
+    <span class="tenure">2013-10 — 2014-05</span>
+    <p><p>Coordinated Pint of Science CH event in the Geneva region.  Responsible for recruiting venue managers and assistants for the event, sourcing funding/sponsorship and contact between national organising committee and venue managers. </p>
+</p>
+    <ul>
+      <li>Managed city wide event taking place concurrently in two venues over 2 nights serving over 250 viewers.</li>
+    </ul>
+    </div>
+    <div>
+    <h3><em>Marketing</em>,
+      <a href="http://lhcomedy.web.cern.ch/">LHComedy/Comedy Collider</a>
+    </h3>
+    <span class="tenure">2013-07 — 2014-06</span>
+    <p><p>Responsible for advertising and marketing for LHComedy/Comedy Collider, a pair of stand up comedy events taking place at CERN in September 2013 and June 2014. starring professional physicists giving amateur stand up comedy sets alongside professional comedians to the general public in a sold out 200 seat capacity venue.</p>
+</p>
+    <ul>
+      <li>Performed in Setpember 2013 addition.</li>
+    </ul>
+    </div>
+</section>
+<hr>
+<section id="affiliation">
+    <header>
+      <span class="fa fa-lg fa-share-alt"></span>  <h2>affiliation</h2>
+    </header>
+
+    <div>
+      <h3><em>Adminstrator</em>,
+        Young@CERN
+        </h3>
+        <span class="tenure">2013-06 — Present</span>
+      <p>Administrator of mailing list and social media group (more than 5000 members) for under-35s at CERN.</p>
+
+      
+    </div>
+</section>
+<hr>
+<section id="speaking">
+    <header>
+      <span class="fa fa-lg fa-users"></span>  <h2>speaking</h2>
+    </header>
+    <div>
+    <h3><em>Impedance simulations of the LHC collimators and low beta simulations of ferrite kicker magnets with CST Particle Studio</em>, CST European User Group Meeting</h3>
+    <span class="tenure">2011</span>
+    
+    </div>
+    <div>
+    <h3><em>Surface Flashover in Fast Pulsed Kicker Systems</em>, 5th International Workshop on Mechanisms of Vacuum Arcs</h3>
+    <span class="tenure">2015</span>
+    
+    </div>
+</section>
+<hr>
+<section id="references">
+    <header>
+      <span class="fa fa-lg fa-thumbs-o-up"></span>  <h2>references</h2>
+    </header>
+    <div>
+    <h3><em>Michael Barnes</em></h3>
+    
+    </div>
+    <div>
+    <h3><em>Elias Metral</em></h3>
+    
+    </div>
+</section>
+<hr>
+<section id="interests">
+    <header>
+      <span class="fa fa-lg fa-bicycle"></span>  <h2>interests</h2>
+    </header>
+    <div>
+    <h3><em>mountain sports</em></h3>
+    <span class="tenure">Current</span>
+    
+    </div>
+    <div>
+    <h3><em>board games</em></h3>
+    <span class="tenure">Current</span>
+    
+    </div>
+</section>
+
+      </div>
+    </main>
+  </body>
+</html>

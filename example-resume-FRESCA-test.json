@@ -28,15 +28,42 @@
 
   "projects": [
     {
-      "title": "CosmicPi",
-      "category": "FOSHW",
+      "title": "HackMyResume",
+      "category": "FOSS",
       "role": "contributor",
-      "url": "http://cosmicpi.org",
-      "start": "2014-10",
+      "url": "http://please.hackmyresume.com",
+      "start": "2015-09",
       "repo": "https://github.com/hacksalot/hackmyresume",
-      "description": "Building an open source, distributed cosmic-ray detector",
-      "summary": "Building an open source, distributed cosmic-ray detector",
-      "keywords": ["open science", "open source"]
+      "description": "A resume authoring and analysis tool for OS X, Linux, and Windows.",
+      "summary": "Exemplar user for HackMyResume and FluentCV!",
+      "keywords": ["JavaScript", "Node.js", "cross-platform", "JSON"],
+      "media": [
+        {
+          "category": "download",
+          "url": "https://www.npmjs.com/package/hackmyresume"
+        }
+      ]
+    },
+    {
+      "title": "Augmented Android",
+      "category": "commercial",
+      "role": "co-creator",
+      "url": "http://project.website.com",
+      "repo": "http://repo.website.com",
+      "description": "An augmented reality app for Android.",
+      "start": "2012-02",
+      "end": "2014-01",
+      "summary": "Performed flagship product conceptualization and development.",
+      "keywords": ["Android", "Java", "Xamarin"]
+    },
+    {
+      "title": "Blog",
+      "category": "personal",
+      "role": "creator",
+      "url": "http://myblog.jane.com/blog",
+      "description": "My programming blog. Powered by Jekyll.",
+      "summary": "Conceptualization, design, development, and deployment.",
+      "keywords": ["Jekyll", "Ruby", "HTML 5", "JavaScript", "HTTP", "LAMP"]
     }
   ],
 
@@ -148,14 +175,6 @@
     "summary": "Experienced volunteer in STEM outreach events, having organised science talks in pubs, science stand up comedy shows",
 
     "history": [
-      {
-        "flavor": "volunteer",
-        "position": "Fundraising, Event Organisation, Team Mentor",
-        "organization": "THE Port",
-        "url": "http://theport.ch/",
-        "start": "2014-06",
-        "summary": "Organisation for THE Port humanitarian hackathon. Assisting in fundraising and sponsorship for event. In addition provide volunteer coordination during event and team mentoring to participating teams during the warm up phase of the event."
-      },
       {
         "flavor": "volunteer",
         "position": "Tour Guide",
