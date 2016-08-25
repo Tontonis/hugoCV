@@ -1,0 +1,9 @@
+I am applying for the position of computation scientist (electromagnetics).
+
+My previous position at CERN involved working extensively on the electromagnetic interactions between magnets, cavity structures and charged particle beams (in both DC and RF frequencies) using computational EM tools such as CST, HFSS, Maxwell, Opera and Cadence/pSpice, of which I now have more than 6 years professional experience with in an stringent academic environment. I also developed a number of python libraries for both data analysis, and the simulation of charged particle effects such as multi-particle effects, EM field analysis and signals analysis/processing.
+
+This work was coupled with laboratory work using network analysers, RF circuit design and general experimental setup and planning, thus I'm comfortable and proficient in both an office and practical setting. This work was often presented at academic conferences and internal meetings to both fellow scientists/engineers, and management.
+
+Asides from my professional experience I'm involved in a number of additional projects, most relevantly a project to build a cheap, open-source cosmic ray detector called CosmicPi. This system has an analogue sensor circuit, analogue to digital conversion and read in software which was all developed by the participants, of which I have contributed analysis software for the device, example science experiments and comments on circuit development.
+
+I've found electromagnetics a fascinating subject to date and am interested in exploring it's uses and intricacies in new contexts after a time in academia.
