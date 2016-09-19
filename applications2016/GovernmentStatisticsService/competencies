@@ -1,0 +1,19 @@
+Statistics
+
+Part of my work at CERN involved using time-varying instrumentation data from particle accelerator operation and simulation data, where the instrumentation data was of a type known to be dependent on the variable that the simulation data corresponded to (in this case temperature was measured and the input power loss was simulated). In some cases this was a well known physical relationship (temperature with input power), others an empirical fitting was used(vacuum pressure to particle beam intensity).
+
+As an exploratory exercise I made a set of comparisons of the data, working to determine if there was a time correlation between sources, using SciPy fitting routines (often starting with a simple polynomial fit and using better approximations as the system was better understood). Although not entirely rigorous, this provided some insight in the systems behaviour, especially guiding simulation work on different fronts to identify the most significant contributors to poor performance, and to identify was were previously thought to be unrelated phenomena which exhibited similar time-like behaviour.
+
+Data
+
+During my previous position at CERN, I carried out a study of electromagnetic taking measured data from a Network Analyser, available in a standardised format (S2P), computational simulation results and data about secondary effects from environmental monitors on the device of study. The measurement and simulation data was stored locally, and the instrumentation data in database that could be queried via Java routines. I designed an API to import the data formats, with variable target data files and, via appropriate post-processing and analysis, convert them in comparable data for visualisation. As part of the post-processing "sanity checks" were implemented, making sure to catch spurious or invalid data (either invalid measurements, or simulation data that was inadmissible due to non-convergence etc.), which also allowed a study of consistency within data sets for systematic and random errors.
+
+In other side projects, notably one called OpenCosmics aimed at taking cosmic ray data from different experiments and providing a common API framework to analyse aggregated data, I have investigated the variety of licenses data is available under, and have discussed with responsible people acceptable use in terms of acknowledgements and accessibility.
+
+Programming/Computing
+
+Using the same example as mentioned in the data competency section, the API that was used was written in Python, primarily to take advantage of it's portability, the strength of the scipy and matplotlib libraries and the flexibility in using procedural or object oriented coding as was most appropriate. Although the only developer of this library, the Git version control system was used to ensure good documentation of the development process and the benefits of the issue system to keep track of development history and plans.
+
+Being used in an engineering context and needing to respond to changing standards in the data sources ensuring consistency between implementations of the routines necessary to import data meant that a set of well understood test data and expected outcomes was used as a baseline check on any modifications of the analysis functionality, and also to check for unexpected changes in the format of the input data.
+
+As part of a growing interest in data science as a discipline in of itself I also have followed basic courses on data science on DataCamp.com, especially using R as a basis to compleent my expertise with Python and follow a number of blogs, like SharpSightLabs discussing the process of data science and ways in which it's possible to interpret data and how to explore what might be unknown data sets.
